@@ -1,0 +1,18 @@
+[project]
+name = "artemis"
+version = "0.1.0"
+description = ""
+authors = [
+    {name = "Nicholas Frederich Lagaunne",email = "nicholas.frederich@amartha.com"}
+]
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = [
+    "httpx (>=0.28.1,<0.29.0)",
+    "setuptools (>=76.0.0,<77.0.0)"
+]
+
+
+[build-system]
+requires = ["poetry-core>=2.0.0,<3.0.0"]
+build-backend = "poetry.core.masonry.api"
