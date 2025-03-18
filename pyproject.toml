@@ -6,10 +6,13 @@ authors = [
     {name = "Nicholas Frederich Lagaunne",email = "nicholas.frederich@amartha.com"}
 ]
 readme = "README.md"
-requires-python = ">=3.13"
+requires-python = ">=3.13,<4.0"
 dependencies = [
     "httpx (>=0.28.1,<0.29.0)",
-    "setuptools (>=76.0.0,<77.0.0)"
+    "setuptools (>=76.0.0,<77.0.0)",
+    "confluent-kafka (>=2.8.2,<3.0.0)",
+    "testcontainers (>=4.9.2,<5.0.0)",
+    "packaging (>=24.2,<25.0)"
 ]
 
 
